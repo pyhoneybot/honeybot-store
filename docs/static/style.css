@@ -1,0 +1,101 @@
+.store-header{
+    width: 100%;
+    padding: 10px;
+    background-color: #003049;
+    color: white;
+    padding-left: 20px;
+}
+.store-name{
+
+    font-size: 50px;
+}
+
+.store-nav{
+    padding: 10px;
+    background-color: #d62828;
+    color: white;
+}
+
+
+.store-footer{
+    padding: 10px;
+    background-color: #003049;
+    color: white;
+}
+
+a{
+    color: inherit !important;
+    text-decoration: inherit !important;
+}
+
+a:hover{
+    color: inherit !important;
+    text-decoration: inherit !important;
+}
+body{
+    background-color: #f4f1de;
+}
+
+.store-stats{
+    background-color: white;
+    padding: 30px;
+    padding-top: 35px;
+    text-align: center;
+}
+.store-figure{
+    font-weight: bold;
+    font-size: 40px;
+    color: #3d4959;
+}
+
+.store-glance{
+    padding: 30px;
+}
+
+.store-motto{
+    font-size: 30px;
+}
+
+.store-stats .btn{
+    width: 100%;
+    margin-bottom: 5px;
+}
+.store-button{
+
+    width: 100%;
+    color: white !important;
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: #f77f00 !important;
+}
+.store-stats .github{
+    background-color: black;
+    color: white !important;
+}
+
+.store-stats .discord{
+    background-color: #7289da;
+    color: white !important;
+}
+
+.store-product-section{
+    padding: 50px;
+
+}
+.store-product{
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.store-product-info{
+    height: 200px;
+    overflow-y: scroll;
+    padding: 5px;
+}
+
+.store-logo{
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 50% !important;
+}

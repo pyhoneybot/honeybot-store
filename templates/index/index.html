@@ -1,0 +1,143 @@
+{% extends "base/index.html" %}
+
+
+{% block pagehead %}
+
+{% endblock %}
+
+
+
+{% block content %}
+
+<header class="nav store-header ">
+    <p class="store-name">HONEYBOT STORE</p>
+</header>
+
+{%include 'partials/nav.html'%}
+
+</div>
+<ul class="nav store-nav ">
+  <li class="nav-item">
+    <a class="nav-link active" href="http://pyhoneybot.github.io/honeybot">Docs</a>
+  </li>
+</ul>
+
+<div class="container">
+<div class="store-glance">
+    <div class="row">
+        <div class="col-sm-8">
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/static/img/monopoly.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/static/img/news.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/static/img/humour.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/static/img/corona.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+        </div>
+        <div class="col-sm-4">
+            <div class="store-stats">
+                <div>
+                    <img class="store-logo" style="width: 100px; height: 100px; border-radius: 50%;" src="static/img/honeybot_real.png">
+                    <br>
+                    <br>
+                    <span class="store-motto">~ IRC bot with simple plugins dev</span>
+                    <br>
+                    <br>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        plugins<br>
+                        <span class="store-figure">{{NUM_PLUGINS}}</span>
+                    </div>
+                    <div class="col">
+                        commits<br>
+                        <span class="store-figure">700</span>
+                    </div>
+                    <div class="col">
+                        forks<br>
+                        <span class="store-figure">60</span>
+                    </div>
+                </div>
+                <div>
+                    <br>
+                    <a href="https://github.com/pyhoneybot/honeybot" class="github btn">
+                        Github
+                    </a>
+                    <br>
+                    <a href="https://discord.gg/E6zD4XT" class="discord btn">
+                        Discord
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="container">
+<div class="store-product-section">
+
+<div class="row">
+    {%for info in infos%}
+     <div class="store-product card">
+        <h3>{{ ' '.join(info['name']) }}</h3>
+        <img src="">
+        <div>
+            <div>
+                <i>{{ ' '.join(info['author']) }}</i>
+            </div>
+            {{ ' '.join(info['description']) }}<br><br>
+            <div class="store-product-info">
+                
+                {{ ' '.join(info['about']) }}
+            </div>
+        </div>
+        <div>
+            
+        </div>
+        <br>
+        <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/{{info['name'][0]}}" class="btn btn-info">View</a>
+    </div>
+    {%endfor%}
+</div>
+    
+
+</div>
+</div>
+
+
+
+<footer class="store-footer">
+    
+</footer>
+
+
+<script type="text/javascript">
+$( document ).ready(function() {
+});
+    
+</script>
+{% endblock %}
