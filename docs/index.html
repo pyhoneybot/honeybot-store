@@ -9,7 +9,30 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
     <link rel="stylesheet" type="text/css" href="static/style.css">
     
-
+<script type="text/javascript">(function(d, t, e, m){
+    
+    // Async Rating-Widget initialization.
+    window.RW_Async_Init = function(){
+                
+        RW.init({
+            huid: "457636",
+            uid: "327d83cf829543b41c49f38d9849c038",
+            options: { "style": "oxygen" } 
+        });
+        RW.render();
+    };
+        // Append Rating-Widget JavaScript library.
+    var rw, s = d.getElementsByTagName(e)[0], id = "rw-js",
+        l = d.location, ck = "Y" + t.getFullYear() + 
+        "M" + t.getMonth() + "D" + t.getDate(), p = l.protocol,
+        f = ((l.search.indexOf("DBG=") > -1) ? "" : ".min"),
+        a = ("https:" == p ? "secure." + m + "js/" : "js." + m);
+    if (d.getElementById(id)) return;              
+    rw = d.createElement(e);
+    rw.id = id; rw.async = true; rw.type = "text/javascript";
+    rw.src = p + "//" + a + "external" + f + ".js?ck=" + ck;
+    s.parentNode.insertBefore(rw, s);
+    }(document, new Date(), "script", "rating-widget.com/"));</script>
 
 </head>
 <body>
@@ -129,7 +152,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="abbreviation.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/abbreviation.py" class="btn btn-info">View</a>
@@ -149,7 +172,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="age.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/age.py" class="btn btn-info">View</a>
@@ -169,7 +192,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="bitcoin.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/bitcoin.py" class="btn btn-info">View</a>
@@ -189,7 +212,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="blackjack.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/blackjack.py" class="btn btn-info">View</a>
@@ -209,7 +232,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="book_of_day.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/book_of_day.py" class="btn btn-info">View</a>
@@ -229,7 +252,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="calc.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/calc.py" class="btn btn-info">View</a>
@@ -249,7 +272,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="calc.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/calc.py" class="btn btn-info">View</a>
@@ -269,7 +292,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="channeljoin.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/channeljoin.py" class="btn btn-info">View</a>
@@ -289,7 +312,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="toss.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/toss.py" class="btn btn-info">View</a>
@@ -309,7 +332,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="comic.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/comic.py" class="btn btn-info">View</a>
@@ -329,7 +352,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="converter.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/converter.py" class="btn btn-info">View</a>
@@ -349,7 +372,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="conv_sniff.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/conv_sniff.py" class="btn btn-info">View</a>
@@ -369,7 +392,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="corona.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/corona.py" class="btn btn-info">View</a>
@@ -389,7 +412,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="countries.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/countries.py" class="btn btn-info">View</a>
@@ -409,7 +432,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="dadjoke.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/dadjoke.py" class="btn btn-info">View</a>
@@ -429,7 +452,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="date.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/date.py" class="btn btn-info">View</a>
@@ -449,7 +472,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="debug.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/debug.py" class="btn btn-info">View</a>
@@ -469,7 +492,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="diary.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/diary.py" class="btn btn-info">View</a>
@@ -489,7 +512,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="dictionary.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/dictionary.py" class="btn btn-info">View</a>
@@ -509,7 +532,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="fact.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/fact.py" class="btn btn-info">View</a>
@@ -529,7 +552,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="flight.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/flight.py" class="btn btn-info">View</a>
@@ -549,7 +572,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="googlesearch.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/googlesearch.py" class="btn btn-info">View</a>
@@ -569,7 +592,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="greet.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/greet.py" class="btn btn-info">View</a>
@@ -589,7 +612,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="hangman.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/hangman.py" class="btn btn-info">View</a>
@@ -609,7 +632,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="help.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/help.py" class="btn btn-info">View</a>
@@ -629,7 +652,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="horoscope.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/horoscope.py" class="btn btn-info">View</a>
@@ -649,7 +672,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="installed_module.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/installed_module.py" class="btn btn-info">View</a>
@@ -669,7 +692,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="joins.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/joins.py" class="btn btn-info">View</a>
@@ -689,7 +712,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="joke.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/joke.py" class="btn btn-info">View</a>
@@ -709,7 +732,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="log.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/log.py" class="btn btn-info">View</a>
@@ -729,7 +752,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="magic_ball.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/magic_ball.py" class="btn btn-info">View</a>
@@ -749,7 +772,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="mail.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/mail.py" class="btn btn-info">View</a>
@@ -769,7 +792,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="maths.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/maths.py" class="btn btn-info">View</a>
@@ -789,7 +812,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="memo.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/memo.py" class="btn btn-info">View</a>
@@ -809,7 +832,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="monero.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/monero.py" class="btn btn-info">View</a>
@@ -829,7 +852,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="monopoly.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/monopoly.py" class="btn btn-info">View</a>
@@ -849,7 +872,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="news.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/news.py" class="btn btn-info">View</a>
@@ -869,7 +892,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="onthisday.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/onthisday.py" class="btn btn-info">View</a>
@@ -889,7 +912,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="password_generator.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/password_generator.py" class="btn btn-info">View</a>
@@ -909,7 +932,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="proverb.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/proverb.py" class="btn btn-info">View</a>
@@ -929,7 +952,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="dictionary.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/dictionary.py" class="btn btn-info">View</a>
@@ -949,7 +972,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="pynews.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/pynews.py" class="btn btn-info">View</a>
@@ -969,7 +992,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="pypi.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/pypi.py" class="btn btn-info">View</a>
@@ -989,7 +1012,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="quote.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/quote.py" class="btn btn-info">View</a>
@@ -1009,7 +1032,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="random_color.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/random_color.py" class="btn btn-info">View</a>
@@ -1029,7 +1052,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="repostats.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/repostats.py" class="btn btn-info">View</a>
@@ -1049,7 +1072,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="riddle.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/riddle.py" class="btn btn-info">View</a>
@@ -1069,7 +1092,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="roll.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/roll.py" class="btn btn-info">View</a>
@@ -1089,7 +1112,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="roman_numeral.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/roman_numeral.py" class="btn btn-info">View</a>
@@ -1109,7 +1132,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="russian_roulette.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/russian_roulette.py" class="btn btn-info">View</a>
@@ -1129,7 +1152,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="send_message.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/send_message.py" class="btn btn-info">View</a>
@@ -1149,7 +1172,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="story.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/story.py" class="btn btn-info">View</a>
@@ -1169,7 +1192,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="sysinfo.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/sysinfo.py" class="btn btn-info">View</a>
@@ -1189,7 +1212,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="countries.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/countries.py" class="btn btn-info">View</a>
@@ -1209,7 +1232,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="test.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/test.py" class="btn btn-info">View</a>
@@ -1229,7 +1252,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="todo.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/todo.py" class="btn btn-info">View</a>
@@ -1249,7 +1272,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="quote.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/quote.py" class="btn btn-info">View</a>
@@ -1269,7 +1292,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="transfer-rumour.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/transfer-rumour.py" class="btn btn-info">View</a>
@@ -1289,7 +1312,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="translate.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/translate.py" class="btn btn-info">View</a>
@@ -1309,7 +1332,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="uptime.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/uptime.py" class="btn btn-info">View</a>
@@ -1329,7 +1352,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="username.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/username.py" class="btn btn-info">View</a>
@@ -1349,7 +1372,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="weather.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/weather.py" class="btn btn-info">View</a>
@@ -1369,7 +1392,7 @@
             </div>
         </div>
         <div>
-            
+            <div class="rw-ui-container" data-title="wikipedia.py"></div>
         </div>
         <br>
         <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/wikipedia.py" class="btn btn-info">View</a>

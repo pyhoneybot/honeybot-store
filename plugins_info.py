@@ -80,7 +80,7 @@ def get_plugins_info():
     files = pyfiles(BASE_DIR)
     # print(files)
     
-
+    print(len(files))
     for i, file in enumerate(files):
         print('running on', file)
         with open('{}{}{}'.format(BASE_DIR, os.sep, file)) as f:
