@@ -78,18 +78,24 @@ def get_plugins_info():
     plugin_dicts = []
 
     files = pyfiles(BASE_DIR)
-    try:
+    # print(files)
+    
 
-        for i, file in enumerate(files):
-            with open('{}{}{}'.format(BASE_DIR, os.sep, file)) as f:
+    for i, file in enumerate(files):
+        print('running on', file)
+        with open('{}{}{}'.format(BASE_DIR, os.sep, file)) as f:
+            try:
                 tree = ast.parse(f.read())
                 docstring = ast.get_docstring(tree)
                 plugin_dicts.append(parse_dstring(docstring))
+            except StopIteration as e:
+                print(e)
+            except UnicodeDecodeError as e:
+                print(e)
             
             #if i == 0:
             #    break
-    except Exception as e:
-        print(e)
+    
 
     return plugin_dicts
 
