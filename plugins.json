@@ -1,0 +1,615 @@
+{
+    "plugins": [
+        {
+            "NAME": "abbreviation.py",
+            "ABOUT": "\nresponds to .def lol\n",
+            "ORIGINAL_AUTHORS": [
+                "Erin Moon, Sourav Dutta"
+            ],
+            "COMMANDS": "\n>>> .def lol\nreturns lots of love\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "abbreviation"
+        },
+        {
+            "NAME": "age.py",
+            "ABOUT": "\nGiven birthday it returns your age.\n",
+            "ORIGINAL_AUTHORS": [
+                "Justin Walker"
+            ],
+            "COMMANDS": "\n>>> .age <<day>> <<month>> <<year>>\nreturns age in yr/mo/day format.\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "age"
+        },
+        {
+            "NAME": "bitcoin.py",
+            "ABOUT": "\nChecks the current price for Bitcoin through the Legacy Coin Market Cap API\nTODO: Update API to new Coin Market Cap API\n",
+            "ORIGINAL_AUTHORS": [
+                "Gabriele Ron"
+            ],
+            "COMMANDS": "\n>>> .btc\nreturns current value of bitcoin\n",
+            "WEBSITE": "https://Macr0Nerd.github.io",
+            "FOLDER_NAME": "bitcoin"
+        },
+        {
+            "NAME": "blackjack.py",
+            "ABOUT": "\nPlay blackjack\n",
+            "ORIGINAL_AUTHORS": [
+                "Angelo Giacco"
+            ],
+            "COMMANDS": "\n>>>.blackjack create\ncreates blackjack game\n\n>>>.blackjack join\njoin blackjack game\n\n>>>.blackjack start\nstart a round\n\n>>>.blackjack hit\nget another card\n\n>>>.blackjack stand\nmove on to next player\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "blackjack"
+        },
+        {
+            "NAME": "book_of_day.py",
+            "ABOUT": "\nUsing bookoftheday.org, get the title and link of the book of the day\n",
+            "ORIGINAL_AUTHORS": [
+                "Schoberg",
+                "UMD"
+            ],
+            "COMMANDS": "\n>>> .bookoftheday\nhttps://bookoftheday.org/fleishman-is-in-trouble-taffy-brodesser-akner/\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "book_of_day"
+        },
+        {
+            "NAME": "Caesar Cipher",
+            "ABOUT": "\nencrypts and decrypts using a caesar cipher\n",
+            "ORIGINAL_AUTHORS": [
+                "Kyle Galloway"
+            ],
+            "COMMANDS": "\n>>> .caesar_cipher <message>\nreturns the encrypted version of message\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "caesar_cipher"
+        },
+        {
+            "NAME": "calc.py",
+            "ABOUT": "\nevaluates maths expressions in the format supported by py\n",
+            "ORIGINAL_AUTHORS": [
+                "Abdur-Rahmaan Janhangeer, pythonmembers.club"
+            ],
+            "COMMANDS": "\n>>> .calc <maths expression>\nreturns evaluated expression\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "calc"
+        },
+        {
+            "NAME": "channeljoin.py",
+            "ABOUT": "\nBot Will join a given channel in the server\n",
+            "ORIGINAL_AUTHORS": [
+                "Marcelo Benesciutti"
+            ],
+            "COMMANDS": "\n>>> .channeljoin channel\nbot joins the given channel\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "channeljoin"
+        },
+        {
+            "NAME": "toss.py",
+            "ABOUT": "\nResponds to .cointoss, Returns head or tail at random\n",
+            "ORIGINAL_AUTHORS": [
+                "Shriram Bhat"
+            ],
+            "COMMANDS": "\n>>> .cointoss\nreturns head/ tail\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "cointoss"
+        },
+        {
+            "NAME": "comic.py",
+            "ABOUT": "\nReturns a random comic from xkcd\n",
+            "ORIGINAL_AUTHORS": [
+                "Miguel Boekhold"
+            ],
+            "COMMANDS": "\n>>> .comic\nreturns a url of a random comic\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "comic"
+        },
+        {
+            "NAME": "converter.py",
+            "ABOUT": "\nConverts currencies\n",
+            "ORIGINAL_AUTHORS": [
+                "Angelo Giacco"
+            ],
+            "COMMANDS": "\n>>> .convert <<base currency code>> <<target currency code>> <<amount>>\nreturns the conversion: amount argument is optional with a default of 1\n.convert help\nshows a list of currencies supported\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "converter"
+        },
+        {
+            "NAME": "conv_sniff.py",
+            "ABOUT": "\nsenses conversation topic with sensitivity set by user, also supports\nword-specific sensing\n",
+            "ORIGINAL_AUTHORS": [
+                "Abdur-Rahmaan Janhangeer, pythonmembers.club"
+            ],
+            "COMMANDS": "\n\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "conv_sniff"
+        },
+        {
+            "NAME": "corona.py",
+            "ABOUT": "\nprovides information about the coronavirus pandemic\n",
+            "ORIGINAL_AUTHORS": [
+                "Angelo Giacco"
+            ],
+            "COMMANDS": "\n>>> .corona\nreturns global coronavirus information\n\n.corona <<country>>\nreturns coronavirus information for a specific country\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "corona"
+        },
+        {
+            "NAME": "countries.py",
+            "ABOUT": "\nShow the capital of a given country.\n",
+            "ORIGINAL_AUTHORS": [
+                "Phil Beld"
+            ],
+            "COMMANDS": "\n>>> .country <country>\nreturns the associated capital\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "country"
+        },
+        {
+            "NAME": "dadjoke.py",
+            "ABOUT": "\nSends a random \"dad joke\" from icanhazdadjoke.com\n",
+            "ORIGINAL_AUTHORS": [
+                "moffetma Oregon State University CS"
+            ],
+            "COMMANDS": "\n>>> .dadjoke\nHave you heard of the band 1023MB? They haven't got a gig yet.\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "dadjoke"
+        },
+        {
+            "NAME": "date.py",
+            "ABOUT": "\nWill post the current date\n",
+            "ORIGINAL_AUTHORS": [
+                "Gico Carlo Evangelista, https://gicocarlo.me/"
+            ],
+            "COMMANDS": "\n>>> .date today\nreturns the current date\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "date"
+        },
+        {
+            "NAME": "debug.py",
+            "ABOUT": "\nprints all parameters passed to bot\n",
+            "ORIGINAL_AUTHORS": [
+                "Abdur-Rahmaan Janhangeer, pythonmembers.club"
+            ],
+            "COMMANDS": "\n>>> .debug\nprints some parameters\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "debug"
+        },
+        {
+            "NAME": "diary.py",
+            "ABOUT": "\nKeeps a record of your diary\n",
+            "ORIGINAL_AUTHORS": [
+                "Angelo Giacco"
+            ],
+            "COMMANDS": "\n>>>.diary record <diary entry>\nAdds to that day's diary entry\n\n>>>.diary show <date>\nWill show the diary entry of specified date (can also accept \"today\", \"yesterday\")\n\n>>>.diary delete\nWill delete today's entry\n\n>>>.diary help\nGives help about how to use the plugin\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "diary"
+        },
+        {
+            "NAME": "dictionary.py",
+            "ABOUT": "\nsends the meaning of the word\nrequires PyDictionary to be installed\ncan use pip -> \"pip install PyDictionary\"\n",
+            "ORIGINAL_AUTHORS": [
+                "Nishant, JPMorgan Chase & Co."
+            ],
+            "COMMANDS": "\n>>> .dictionary <<word>>\nreturns meaning of the word specified\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "dictionary"
+        },
+        {
+            "NAME": "fact.py",
+            "ABOUT": "\nReturns a random fact.\nFacts sourced from Mental Floss\nhttp://mentalfloss.com/article/55443/101-amazing-facts\n",
+            "ORIGINAL_AUTHORS": [
+                "Justin Walker"
+            ],
+            "COMMANDS": "\n>>> .fact\nreturns random fact\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "fact"
+        },
+        {
+            "NAME": "flight.py",
+            "ABOUT": "\nreturns flight information\n",
+            "ORIGINAL_AUTHORS": [
+                "Angelo Giacco"
+            ],
+            "COMMANDS": "\n>>> .flight <<flight callsign>>\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "flight"
+        },
+        {
+            "NAME": "googlesearch.py",
+            "ABOUT": "\nReturns the first three links from a google search.\n",
+            "ORIGINAL_AUTHORS": [
+                "Justin Walker"
+            ],
+            "COMMANDS": "\n>>> .google <<search term>>\nreturns search links\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "google"
+        },
+        {
+            "NAME": "greet.py",
+            "ABOUT": "\nresponds to .hi, demo of a basic plugin\n",
+            "ORIGINAL_AUTHORS": [
+                "Abdur-Rahmaan Janhangeer, pythonmembers.club"
+            ],
+            "COMMANDS": "\n>>> .hi\nreturns hoo\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "greet"
+        },
+        {
+            "NAME": "hangman.py",
+            "ABOUT": "\nPlays game of hangman\n",
+            "ORIGINAL_AUTHORS": [
+                "Justin Walker"
+            ],
+            "COMMANDS": "\n>>> .hangman start\nStarts hangman game and returns game screen.\n\n>>> .hangman guess <<word or letter>>\nSubmits word or letter guess and returns game screen.\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "hangman"
+        },
+        {
+            "NAME": "help.py",
+            "ABOUT": "\nShow link with all the functionalities of the bot.\n",
+            "ORIGINAL_AUTHORS": [
+                "Eduardo Moraes de Mello, https://github.com/edumello"
+            ],
+            "COMMANDS": "\n>>> .help\nreturns link of plugins informations\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "help"
+        },
+        {
+            "NAME": "horoscope.py",
+            "ABOUT": "\nReturns your daily horoscope based on your star sign\nyou can also enter your month and date of birth to automatically find your starsign\nenter month and date as number\n",
+            "ORIGINAL_AUTHORS": [
+                "Angelo Giacco"
+            ],
+            "COMMANDS": "\n>>> .horoscope <<starsign>>\nreturns horoscope for starsign\n\n.horoscope <<month>> <<day>>\nreturns horoscope for starsign of day entered\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "horoscope"
+        },
+        {
+            "NAME": "installed_module.py",
+            "ABOUT": "\nchecks if all listed in requirements.txt installed\n",
+            "ORIGINAL_AUTHORS": [
+                "Abdur-Rahmaan Janhangeer, pythonmembers.club"
+            ],
+            "COMMANDS": "\n>>> .installed\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "installed_modules"
+        },
+        {
+            "NAME": "joke.py",
+            "ABOUT": "\nsends a random joke on request\n",
+            "ORIGINAL_AUTHORS": [
+                "Abdur-Rahmaan Janhangeer, pythonmembers.club"
+            ],
+            "COMMANDS": "\n>>> .joke\nreturns a random joke\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "joke"
+        },
+        {
+            "NAME": "magic_ball.py",
+            "ABOUT": "\nFortune-telling for question using a magic 8 ball\n",
+            "ORIGINAL_AUTHORS": [
+                "Zakaria Talhami"
+            ],
+            "COMMANDS": "\n>>> .8ball <<question>>\nreturns It is certain\n\n>>> .magic8ball <<question>>\nreturns Very doubtful\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "magic_ball"
+        },
+        {
+            "NAME": "mail.py",
+            "ABOUT": "\nWill allow the user to send an email while in the chat\nwith the bot. The text send will be interpreted as html\nso you can use formatting such as <br> to make new lines,\nand any other html formatting commands in the text of the\nbody of the email. No additional libraries need to be installed.\nMake sure that you configure the email_config.conf file with your\nemail, your email password, SMTP server, and SMTP server port.\nSee that document for more information.\n",
+            "ORIGINAL_AUTHORS": [
+                "Tanner Fry"
+            ],
+            "COMMANDS": "\n.mail <To email address> .body <Text for the body of your email> .subject <Text of subject for email>\nEX:// \".mail test@email.com .body testing body for honeybot email .subject testing subject\"\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "mail"
+        },
+        {
+            "NAME": "maths.py",
+            "ABOUT": "\nsome maths related commands\n",
+            "ORIGINAL_AUTHORS": [
+                "Abdur-Rahmaan Janhangeer, pythonmembers.club"
+            ],
+            "COMMANDS": "\n>>> .sin <number>\nreturns sine of number\n\n>>> .cos <number>\nreturns cosine of number\n\n>>> .tan <number>\nreturns tangent of number\n\n>>> .rand <number1> <number2>\nreturns number between number1 and number2\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "maths"
+        },
+        {
+            "NAME": "memo.py",
+            "ABOUT": "\nresponds to .memo, demo of a basic memory plugin\n",
+            "ORIGINAL_AUTHORS": [
+                "Abdur-Rahmaan Janhangeer, pythonmembers.club"
+            ],
+            "COMMANDS": "\n>>> .memo add <key> <value>\n>>> .memo rem <key>\n>>> .memo fetch <key>\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "memo"
+        },
+        {
+            "NAME": "monero.py",
+            "ABOUT": "\nChecks the current price for Monero via the cryptocompare.com API\n",
+            "ORIGINAL_AUTHORS": [
+                "A. Eigenbrot"
+            ],
+            "COMMANDS": "\n>>> .xmr [currency]\nreturns current value of Monero in the currency specified (default is USD). Currency must be a 3-letter capital string.\nExamples: USD, EUR, BTC, GBP\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "monero"
+        },
+        {
+            "NAME": "monopoly.py",
+            "ABOUT": "\nPlay monopoly\n",
+            "ORIGINAL_AUTHORS": [
+                "Angelo Giacco"
+            ],
+            "COMMANDS": "\n>>>.monopoly create\ncreates monopoly\n\n>>>.monopoly join\nuser joins the game\n\n>>>.monopoly start\nstarts the game\n\n>>>.monopoly roll\nrolls two dice to see how far the user will move/if the user can leave the jail\n\n>>>.monopoly buy\nuser purchases property if unowned, otherwise buys house\n\n>>>.monopoly pass\nuser passes on the opportunity to buy a property if unowned, or on the opportunity to buy a house\n\n>>>.monopoly leave\nuser leaves the game\n\n>>>.monopoly help\nsends messages explaining how to use the monopoly plugin\n\n>>>.monopoly info\nsends messages showing the status of each player\n\n.monopoly info rolls\ndisplays basic information about the upcoming spaces in front of a player\n\n.monopoly info <<player>>\nshows information about a certain player\n\n.monopoly info <<property>>\nshows information about a property\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "monopoly"
+        },
+        {
+            "NAME": "news.py",
+            "ABOUT": "\nGets the top 10 headlines around the world from bbc world news\n",
+            "ORIGINAL_AUTHORS": [
+                "Angelo Giacco"
+            ],
+            "COMMANDS": "\n>>> .news\nreturns string of ten news headlines with newlines between\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "news"
+        },
+        {
+            "NAME": "onthisday.py",
+            "ABOUT": "\nGets an interesting fact about today!\n",
+            "ORIGINAL_AUTHORS": [
+                "Kenneth Gargan"
+            ],
+            "COMMANDS": "\n>>> .onthisday\nreturns fact's about today\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "onthisday"
+        },
+        {
+            "NAME": "password_generator.py",
+            "ABOUT": "\nsends different type of passwords\n",
+            "ORIGINAL_AUTHORS": [
+                "Nishant, JPMorgan Chase & Co."
+            ],
+            "COMMANDS": "\n>>> .passgen <<length>>\nreturns alphabetic password of specified length\n\n>>> .passgensecure <<length>>\nreturns secure alphanumeric password of specified length\n\n>>> .passgenalphanum <<length>>\nreturns alphanumeric password of specified length\n\n>>> .passgenspecialchar <<length>>\nreturns universally accepted alphanumeric password with special characters of specified length where length >= 4\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "password_generator"
+        },
+        {
+            "NAME": "proverb.py",
+            "ABOUT": "\nsends a random proverb on request\n",
+            "ORIGINAL_AUTHORS": [
+                "Sushant Kumar"
+            ],
+            "COMMANDS": "\n>>> .proverb\nreturns a random proverb\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "proverb"
+        },
+        {
+            "NAME": "dictionary.py",
+            "ABOUT": "\nSearches the python documentatioin(pydocs) for the related keyword(s)\nand returns some of the relevant links\n",
+            "ORIGINAL_AUTHORS": [
+                "Milad H,"
+            ],
+            "COMMANDS": "\n>>> .pydocs <keyword>\nreturns links in python documentation related to the keyword\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "pydocs"
+        },
+        {
+            "NAME": "pynews.py",
+            "ABOUT": "\nFinds the top five news items on python.org and prints them to the IRC\n",
+            "ORIGINAL_AUTHORS": [
+                "Sam Deans"
+            ],
+            "COMMANDS": "\n>>> .pynews\nreturns the top 5 python.org news articles\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "pynews"
+        },
+        {
+            "NAME": "pypi.py",
+            "ABOUT": "\nSearches for Python packages on pypi.org\n",
+            "ORIGINAL_AUTHORS": [
+                "Donald Lieu"
+            ],
+            "COMMANDS": "\n>>> .pypi <search term>\nreturns first 3 result links\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "pypi"
+        },
+        {
+            "NAME": "quote.py",
+            "ABOUT": "\nSends a random quote on request\n",
+            "ORIGINAL_AUTHORS": [
+                "German Corpaz"
+            ],
+            "COMMANDS": "\n>>> .quote\nreturns a random quote\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "quote"
+        },
+        {
+            "NAME": "random_color.py",
+            "ABOUT": "\nresponds to .randcol, returns a HEX color code\n",
+            "ORIGINAL_AUTHORS": [
+                "Jeet Trivedi"
+            ],
+            "COMMANDS": "\n>>> .randcol\nreturns a HEX color code: a 6-character string representing RGB\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "random_color"
+        },
+        {
+            "NAME": "repostats.py",
+            "ABOUT": "\nGets the number of forks and stars for a given repo\n",
+            "ORIGINAL_AUTHORS": [
+                "Shreyansh Sancheti"
+            ],
+            "COMMANDS": "\n>>> .repostats url\nreturns starcount stars | forkcount forks\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "repostats"
+        },
+        {
+            "NAME": "riddle.py",
+            "ABOUT": "\nReturns a riddle or whether guess at the answer was correct or not.\n",
+            "ORIGINAL_AUTHORS": [
+                "Angelo Giacco"
+            ],
+            "COMMANDS": "\n>>> .riddle\nreturns a random riddle\n\n.riddle guess <<attempt>>\nreturns whether the guess was correct or wrong\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "riddle"
+        },
+        {
+            "NAME": "roll.py",
+            "ABOUT": "\nWill roll dice in the form of 1d4, 10d6 and return total.\n",
+            "ORIGINAL_AUTHORS": [
+                "Glenn Toms"
+            ],
+            "COMMANDS": "\n>>> .roll <<dice>>\nreturns Total of dice\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "roll"
+        },
+        {
+            "NAME": "Roman Numeral Converter Plugin",
+            "ABOUT": "\nReturns the roman numeral equivalent of the number inputted\n",
+            "ORIGINAL_AUTHORS": [
+                "Nick Wiley"
+            ],
+            "COMMANDS": "\n>>> .roman <number>\nreturns number represented in roman numerals\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "roman_numeral"
+        },
+        {
+            "NAME": "russian_roulette.py",
+            "ABOUT": "\nIn the original russian roulette, you have a one sixth chance of committing\nsuicide. In this version, you have a one sixth chance of being kicked from\nthe channel. The bot will utilise the IRC command:\nKICK #channel nickname\nwhere #channel is the channel name and nicknames is the nickname of the user\n",
+            "ORIGINAL_AUTHORS": [
+                "Angelo Giacco"
+            ],
+            "COMMANDS": "\n>>> .russian_roulette\neither returns a string saying you survived or kicks you off the channel\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "russian_roulette"
+        },
+        {
+            "NAME": "Self Travia",
+            "ABOUT": "\nReturns a private trivia question\n",
+            "ORIGINAL_AUTHORS": [
+                "Angel Jimenez"
+            ],
+            "COMMANDS": "\n>>> .selfTrivia\nreturns a random question\nCurrently working on adding multiple choice and a timer reveal.\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "selfTrivia"
+        },
+        {
+            "NAME": "send_message.py",
+            "ABOUT": "\nSends a message to another channel.\n",
+            "ORIGINAL_AUTHORS": [
+                "Justin Walker"
+            ],
+            "COMMANDS": "\n>>> .send #channel .u riceabove .m how are you?\nSends a message to #channel like\n'IronPenguin from #channel says to riceabove: how are you?'\n\n>>> .send #channel hi all\nSends a message to #channel like\n'IronPenguin from #channel says: hi all'\n\nChecks if user online first and says \"User not online.\"\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "send_message"
+        },
+        {
+            "NAME": "story.py",
+            "ABOUT": "\nSends a random story\nSourced stories from\nhttp://www.read.gov/aesop/001.html\n",
+            "ORIGINAL_AUTHORS": [
+                "Tuan Thai"
+            ],
+            "COMMANDS": "\n>>> .story\nreturns random story\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "story"
+        },
+        {
+            "NAME": "sysinfo.py",
+            "ABOUT": "\nResponds to .sysinfo, gets System Information of the host.\n",
+            "ORIGINAL_AUTHORS": [
+                "Girish Mahabir"
+            ],
+            "COMMANDS": "\n>>> .sysinfo\nreturns General System Information, Boot Date and time, CPU information,\nMemory information, Disk Information and Network Information.\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "sysinfo"
+        },
+        {
+            "NAME": "countries.py",
+            "ABOUT": "\nShow the dialcode of a given country.\n",
+            "ORIGINAL_AUTHORS": [
+                "Sarvesh Dubey"
+            ],
+            "COMMANDS": "\n>>> .tel <country_code>\nreturns the associated country telephone code\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "telephone_code"
+        },
+        {
+            "NAME": "test.py",
+            "ABOUT": "\ntests run\n",
+            "ORIGINAL_AUTHORS": [
+                "Abdur-Rahmaan Janhangeer, pythonmembers.club"
+            ],
+            "COMMANDS": "\n\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "test"
+        },
+        {
+            "NAME": "todo.py",
+            "ABOUT": "\nTodo list keeps all your pending task .\nYou can add a task ,delete or show list.\nThis list is stored in a text file called todo.txt in honeybot directory.\nIf this does not exist it creates one.\n",
+            "ORIGINAL_AUTHORS": [
+                "Himanshu Ranjan"
+            ],
+            "COMMANDS": "\n>>>.todo add <Your Task Here>\nIt adds the task to do the todo list.\n\n>>>.todo delete <index>\nTo delete a task input it's index number as shown in the list.\n\n>>>.todo show\nIt shows all the task currently on the list.\n\n>>>.todo clear\nThis will delete all the task in the list.\n\n>>>.todo help\nsends messages explaining how to use the todo plugin\n",
+            "WEBSITE": "https://github.com/h-ranjan1110",
+            "FOLDER_NAME": "todo"
+        },
+        {
+            "NAME": "quote.py",
+            "ABOUT": "\nExtracts quotes and send random quote from Trailer Park Boys\n",
+            "ORIGINAL_AUTHORS": [
+                "Divyanshu Mehta"
+            ],
+            "COMMANDS": "\n>>>.quote <count>\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "tpbquote"
+        },
+        {
+            "NAME": "transfer-rumour.py",
+            "ABOUT": "\nCollects transfer rumours from BBC sport\n",
+            "ORIGINAL_AUTHORS": [
+                "Angelo Giacco"
+            ],
+            "COMMANDS": "\n>>> .transfer-rumour\nprints the top transfer rumour\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "transfer-rumour"
+        },
+        {
+            "NAME": "translate.py",
+            "ABOUT": "\nA Google Translate plugin\n",
+            "ORIGINAL_AUTHORS": [
+                "Ahmed Deeb"
+            ],
+            "COMMANDS": "\n>>> . Google Translator object.\n\nExamples\n--------\ntranslator = Plugin()\n\nresults1 = translator.translate(\"Einen sch\u00f6nen Tag allerseits\")\n\n# try 2 at a time\nresults2 = translator.translate([\"Einen sch\u00f6nen Tag allerseits\",\n\"Ich nehme an\"])\n\n# try detect\nresults3 = translator.detect(\"Einen sch\u00f6nen Tag allerseits\")\n\n# try to detect 2 at a time\nresults4 = translator.detect([\"Einen sch\u00f6nen Tag allerseits\",\n\"Ich nehme an\"])\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "translate"
+        },
+        {
+            "NAME": "username.py",
+            "ABOUT": "\ngenerates random usernames, used for inspiration\n",
+            "ORIGINAL_AUTHORS": [
+                "Abdur-Rahmaan Janhangeer, pythonmembers.club"
+            ],
+            "COMMANDS": "\n>>> .uname\nreturns generated username\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "username"
+        },
+        {
+            "NAME": "weather.py",
+            "ABOUT": "\nA plugin to get the weather of a location\n",
+            "ORIGINAL_AUTHORS": [
+                "Gabriele Ron"
+            ],
+            "COMMANDS": "\n>>> .weather <city> <country code>\nreturns the weather\n",
+            "WEBSITE": "",
+            "FOLDER_NAME": "weather"
+        },
+        {
+            "NAME": "wikipedia.py",
+            "ABOUT": "\nsends a wikipedia article on request based off of a search or random query\nrequires wikipedia library. Can use pip -> \"pip install wikipedia\"\n",
+            "ORIGINAL_AUTHORS": [
+                "Gabriele Ron"
+            ],
+            "COMMANDS": "\n>>> .wiki <command> <topic>\nreturns a wikipedia article\n",
+            "WEBSITE": "https://Macr0Nerd.github.io",
+            "FOLDER_NAME": "wikipedia"
+        }
+    ]
+}

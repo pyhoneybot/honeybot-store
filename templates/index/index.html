@@ -103,23 +103,22 @@
 <div class="row">
     {%for info in infos%}
      <div class="store-product card">
-        <h3>{{ ' '.join(info['name']) }}</h3>
+        <h3>{{ info['NAME'] }}</h3>
         <img src="">
         <div>
             <div>
-                <i>{{ ' '.join(info['author']) }}</i>
+                <i>{{ ', '.join(info['ORIGINAL_AUTHORS']) }}</i>
             </div>
-            {{ ' '.join(info['description']) }}<br><br>
             <div class="store-product-info">
                 
-                {{ ' '.join(info['about']) }}
+                {{ info['ABOUT'] }}
             </div>
         </div>
         <div>
-            <div class="rw-ui-container" data-title="{{info['name'][0]}}"></div>
+            <div class="rw-ui-container" data-title="{{info['NAME']}}"></div>
         </div>
         <br>
-        <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/{{info['name'][0]}}" class="btn btn-info">View</a>
+        <a href="https://github.com/pyhoneybot/honeybot/tree/master/honeybot/plugins/downloaded/{{info['FOLDER_NAME']}}" class="btn btn-info">View</a>
     </div>
     {%endfor%}
 </div>
